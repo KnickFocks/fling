@@ -1,0 +1,127 @@
+/* Remember that EXP player has a black background! */
+
+body {
+ font-family: 'Roboto', sans-serif;
+ background-color: #000;
+}
+
+#main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#menu {
+    position: absolute;
+    left: 0;
+    z-index: 100;
+    bottom: 0;
+    width: 100%;
+}
+
+#goto {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #1bbc9b;
+  color: #fff;
+  font-size: 25px;
+  z-index: 100;
+  padding: 5px 20px;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.active {
+  /*border-right: 4px solid #fff;*/
+}
+
+#menu #list li {
+  text-align: left;
+  padding: 20px 43px 20px 20px;
+  color: white;
+  height:172px;
+  max-height: 172px;
+  font-family: 'Raleway-Thin';
+  font-size: 70px;
+  margin: 0 5px 0 0;
+  position: relative;
+  width: auto;
+  display: inline-block;
+  flex-grow: 1;
+  line-height: 80px;
+  flex-basis: 0;
+  background-color: rgba(119, 92, 167, .58);
+  display: flex;
+  align-items: center;
+
+  border-top: solid 16px rgba(0, 0, 0, .5);
+}
+
+#menu #list li svg,
+#menu #list li img {
+  position: absolute;
+  right: 10px;
+  top: 17px;
+}
+
+#menu #list li svg {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#urlContainer{
+    top:0;
+    left:0;
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    z-index:200;
+    position: absolute;
+    pointer-events: none;
+}
+
+#url{
+    width: auto;
+    height: auto;
+    margin-top:20px;
+    padding: 30px 60px;
+    border-radius: 100px;
+    background-color:rgba(0, 0, 0, .5);
+    pointer-events: none;
+
+    font-weight: 400;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+.hidden{
+    display:none !important;
+}
+
+@font-face {
+    font-family: 'Raleway-Thin';
+    font-style: normal;
+    src: local('Raleway-Thin'), local('Raleway-Thin'), url(fonts/Raleway-Thin.ttf) format('truetype');
+}

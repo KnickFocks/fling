@@ -1,0 +1,27 @@
+{
+  "name": "Proxy Video App",
+  "icon": "video",
+  "description": "Plays a localhost proxy video file.",
+  "background": "deep-purple",
+  "configTypes": [
+    {
+       "name": "video",
+       "type": "video",
+       "multiItem": false,
+       "label": "Add Video",
+       "required": true,
+       "path": "content"
+    },
+    {
+      "name": "captionsTrack",
+      "type": "content",
+      "restriction": ["file"],
+      "multiItem": false,
+      "label": "Captions File",
+      "required": false,
+      "path": "captionsTrack"
+    }
+  ],
+  "config": {
+  }
+}

@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(../fonts/Roboto-Black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-BlackItalic';
+    src: url(../fonts/Roboto-BlackItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-BoldItalic';
+    src: url(../fonts/Roboto-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Italic';
+    src: url(../fonts/Roboto-Italic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../fonts/Roboto-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url(../fonts/Roboto-LightItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(../fonts/Roboto-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-MediumItalic';
+    src: url(../fonts/Roboto-MediumItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url(../fonts/Roboto-Thin.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-ThinItalic';
+    src: url(../fonts/Roboto-ThinItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-Bold';
+    src: url(../fonts/RobotoCondensed-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-BoldItalic';
+    src: url(../fonts/RobotoCondensed-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-Italic';
+    src: url(../fonts/RobotoCondensed-Italic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-Light';
+    src: url(../fonts/RobotoCondensed-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-LightItalic';
+    src: url(../fonts/RobotoCondensed-LightItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-Regular';
+    src: url(../fonts/RobotoCondensed-Regular.ttf) format('truetype');
+}

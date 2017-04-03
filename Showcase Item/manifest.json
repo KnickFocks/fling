@@ -1,0 +1,40 @@
+{
+    "name": "Showcase Item",
+    "icon": "image-area",
+    "background": "blue",
+    "description": "Showcase Item",
+    "configTypes": [{
+        "type":"text",
+        "label":"Experience Title",
+        "required": false,
+        "path":"title"
+    },{
+        "type":"text",
+        "label":"Experience Sub Title",
+        "required": false,
+        "path":"subtitle"
+    },{
+        "type": "image",
+        "label": "Experience Splash Image",
+        "multiItem": false,
+        "required": false,
+        "path": "splash"
+    },{
+        "type": "test",
+        "label": "Experience Button CTA Text",
+        "required": false,
+        "path": "buttonText"
+    },{
+        "type": "app",
+        "label": "App Template",
+        "required": false,
+        "path": "app"
+    }],
+    "config": {
+        "title":"This is your title",
+        "subtitle":"This is your sub title",
+        "splash":"",
+        "buttonText":"This is your button text",
+        "app":""
+    }
+}

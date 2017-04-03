@@ -1,0 +1,26 @@
+EXP Label: 					Creative Variable:
+
+Intro: Background Color				intro_backgroundColor
+Intro: URL to Experience			intro_url
+Intro: Instruction Bubble Background Color	intro_bubbleBackgroundColor
+Intro: Instruction Bubble Text Color		intro_bubbleTextColor
+Intro: Button Background Color			intro_buttonBackgroundColor
+Intro: Button Text Color			intro_buttonTextColor
+Header: Background Color			header_backgroundColor
+Header: Logo Image				header_logoImage
+Header: Instructions Image			header_instructionsImage
+View: Background Image				view_backgroundImage
+View: Background Color				view_backgroundColor
+View: Bubble Navigation Active Color		view_bubbleActive
+View: Bubble Navigation Inactive Color		view_bubbleInactive
+Module: Background Color			module_backgroundColor
+Module: Button Background Color			module_buttonBackgroundColor
+Module: Button Text Color			module_buttonTextColor
+Module: Button Text				module_buttonText
+Module: Fling Image				module_flingImage
+Module: Title Text Color			module_titleTextColor
+Module: Sub Title Text Color			module_subtitleTextColor
+Footer: Background Color			footer_backgroundColor
+Footer: Text Color				footer_fextColor
+Footer: Text					footer_text
+
